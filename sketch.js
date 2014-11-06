@@ -10,8 +10,9 @@ function setup() {
 
 function draw() {
 	background(bg);
-    fill(255,0,0);
+    
     noStroke();
+    fill(255,0,0);
     ellipse(600,400,200,200);
 
    var duration0 = 3000;
