@@ -22,11 +22,9 @@ function draw() {
    var timing3 = (new Date()%duration3)/duration3;
 
    fill(0); //우주선
-   ellipse(600 + Math.cos(timing1*2*PI)*500,           // x좌표
-        400 + Math.sin(timing1*2*PI)*0, // y좌표
-        50,                                  // width
-        50);                                 // height
-
+                                  // height
+   image(img,600 + Math.cos(timing1*2*PI)*500,          
+        400 + Math.sin(timing1*2*PI)*0);
 
 
    fill(0,90,255); //블루
@@ -48,6 +46,5 @@ function draw() {
         20,                                  // width
         20);                                 // height
 
-image(img,600 + Math.cos(timing1*2*PI)*500,          
-        400 + Math.sin(timing1*2*PI)*0);
+
 }
