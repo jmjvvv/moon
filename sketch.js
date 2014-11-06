@@ -22,7 +22,7 @@ function draw() {
    var timing3 = (new Date()%duration3)/duration3;
 
     //우주선
-                                  // height
+                                  
    image(img,600 + Math.cos(timing1*2*PI)*500,          
         400 + Math.sin(timing1*2*PI)*0);
 
@@ -46,5 +46,22 @@ function draw() {
         20,                                  // width
         20);                                 // height
 
+   background(bg);
+    noFill();
+    noStroke();
 
+        var duration = 3500;
+        var timing = (new Date()%duration)/duration;
+
+
+    stars(80,100);
+    stars(290,200);
+    stars2(180,300);
+    stars(550,100);
+    stars2(720,180);
+    stars(850,230);
+    stars2(920,300);
+    stars(370,125);
+    stars(820,70);
+    stars(550,350);
 }
