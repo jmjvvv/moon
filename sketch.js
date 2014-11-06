@@ -1,4 +1,4 @@
-var bg, img;
+var bg;
 
 
 function setup() {
@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
 	background(bg);
-   
+    fill(255,0,0);
     noStroke();
     ellipse(600,400,200,200);
 
