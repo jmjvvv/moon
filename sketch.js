@@ -2,7 +2,7 @@ var img;
 
 function setup() {
     createCanvas(1300, 1000);
-    img=loadImage("ufo.jpg");
+    img=loadImage("a.jpg");
 }
 
 
