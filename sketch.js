@@ -46,20 +46,11 @@ function draw() {
         20,                                  // width
         20);                                 // height
 
-   
+
 
         var duration = 3500;
         var timing = (new Date()%duration)/duration;
 
 
-    stars(80,100);
-    stars(290,200);
-    stars2(180,300);
-    stars(550,100);
-    stars2(720,180);
-    stars(850,230);
-    stars2(920,300);
-    stars(370,125);
-    stars(820,70);
-    stars(550,350);
+    
 }
