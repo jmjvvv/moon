@@ -2,7 +2,7 @@ var img;
 
 function setup() {
     createCanvas(1300, 1000);
-    img=loadImage("a.jpg");
+    img=loadImage("a.png");
 }
 
 
