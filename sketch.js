@@ -21,7 +21,7 @@ function draw() {
    var timing2 = (new Date()%duration2)/duration2;
    var timing3 = (new Date()%duration3)/duration3;
 
-   fill(0,90,255); //우주선
+   fill(0); //우주선
    ellipse(600 + Math.cos(timing1*2*PI)*500,           // x좌표
         400 + Math.sin(timing1*2*PI)*0, // y좌표
         50,                                  // width
