@@ -1,13 +1,15 @@
-var img;
+var bg, img;
+
 
 function setup() {
     createCanvas(1300, 1000);
     img=loadImage("a.png");
+    bg=loadImage("b.jpg");
 }
 
 
 function draw() {
-	background(0);
+	background(bg);
     fill(255,0,0);
     noStroke();
     ellipse(600,400,200,200);
@@ -23,7 +25,7 @@ function draw() {
 
     //우주선
                                   
-   image(img,600 + Math.cos(timing1*2*PI)*400,          
+   image(img,600 + Math.cos(timing1*2*PI)*500,          
         400 + Math.sin(timing1*2*PI)*0);
 
 
