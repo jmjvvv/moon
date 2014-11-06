@@ -46,9 +46,7 @@ function draw() {
         20,                                  // width
         20);                                 // height
 
-   background(bg);
-    noFill();
-    noStroke();
+   
 
         var duration = 3500;
         var timing = (new Date()%duration)/duration;
